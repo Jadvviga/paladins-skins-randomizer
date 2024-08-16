@@ -18,7 +18,7 @@ const config = {
         }),
         paths: {
             // change below to your repo name
-            base: process.argv.includes('dev') ? "" : "/paladins-skin-randomizer",
+            base: process.argv.includes('dev') ? "" : "/paladins-skins-randomizer",
         }
     }
 };
