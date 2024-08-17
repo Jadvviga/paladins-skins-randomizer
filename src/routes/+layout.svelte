@@ -12,10 +12,10 @@
 		<span style="flex: 100;" />
 		<nav>
 			<ul>
-				<li aria-current={$page.url.pathname === '/statistics' ? 'page' : undefined}>
+				<li>
 					<a href="https://github.com/Jadvviga/paladins-skin-randomizer" target="_blank">GitHub</a>
 				</li>
-				<li aria-current={$page.url.pathname === '/gallery' ? 'page' : undefined}>
+				<li>
 					<span popovertarget="credits" on:click={toggleCredits}>Credits</span>
 				</li>
 			</ul>
