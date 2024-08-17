@@ -1,20 +1,6 @@
 <div class="app">
 	<header>
-		<nav>
-			<ul>
-				<!-- <li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
-					<a href="{base}/">Randomizer</a>
-				</li> -->
-				<!-- <li aria-current={$page.url.pathname === '/statistics' ? 'page' : undefined}>
-					<a href="{base}/statistics">statistics</a>
-				</li>
-				<li aria-current={$page.url.pathname === '/gallery' ? 'page' : undefined}>
-					<a href="{base}/gallery">Gallery</a>
-				</li> -->
-			</ul>
-		</nav>
 		<a href="{base}/">Paladins skin randomizer</a>
-		<span style="flex: 1;" />
 	</header>
 
 	<main>
@@ -124,6 +110,7 @@
 	header {
 		display: flex;
 		justify-content: center;
+		align-items: center;
 		background-color: var(--color-bg-2);
 	}
 
@@ -135,7 +122,6 @@
 	}
 
 	header a {
-		align-items: center;
 		text-transform: uppercase;
 		font-weight: 900;
 		font-size: 1.6rem;
