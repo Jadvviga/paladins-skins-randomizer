@@ -13,9 +13,6 @@
 		<nav>
 			<ul>
 				<li>
-					<a href="https://github.com/Jadvviga/paladins-skin-randomizer" target="_blank">GitHub</a>
-				</li>
-				<li>
 					<span popovertarget="credits" on:click={toggleCredits}>Credits</span>
 				</li>
 			</ul>
