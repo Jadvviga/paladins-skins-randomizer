@@ -9,9 +9,15 @@
 
 	<footer bind:clientHeight={footerHeight}>
 		<span>version 1.0. | Tidal Surge Update</span>
-		<span style="flex: 100;" />
 		<nav>
 			<ul>
+				<li>
+					<a
+						target="_blank"
+						href="https://docs.google.com/forms/d/e/1FAIpQLSdy3y8LDbg6daDxEQtZtgppG_J2EvLpSA0QZiPlgEHiSugZLw/viewform?usp=sf_link"
+						>Feedback/Report an issue</a
+					>
+				</li>
 				<li>
 					<span popovertarget="credits" on:click={toggleCredits}>Credits</span>
 				</li>
@@ -114,7 +120,7 @@
 	nav {
 		display: flex;
 		flex: 1;
-		justify-content: start;
+		justify-content: end;
 		align-items: center;
 	}
 
