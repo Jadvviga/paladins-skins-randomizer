@@ -153,17 +153,18 @@
 		gap: 10px;
 	}
 	.pool {
-		width: 210px;
+		width: 215px;
 		height: 550px;
 		border: 1px solid var(--color-text);
 		background-color: white;
 		border-radius: 5px;
 		gap: 2px;
-		padding: 3px 0;
+		padding: 5px;
 		display: flex;
 		align-items: center;
 		flex-direction: column;
 		overflow-y: scroll;
+		overflow-x: hidden;
 	}
 	.buttons {
 		margin-top: -40px;
