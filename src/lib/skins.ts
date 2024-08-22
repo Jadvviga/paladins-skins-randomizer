@@ -4,8 +4,6 @@
 import { CHAMPIONS } from "$lib/champions";
 import { Availability, Rarity, type Skin, SkinType } from "$lib/skinsData";
 
-//ADD rest of skins - last updat was the Omen with egipt battle pass upadte
-// add new type fo upadte to later be able to check waht upadte the skins comes from
 export const SKINS: Array<Skin> = [
     {
         champion: CHAMPIONS.Androxus,

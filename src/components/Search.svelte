@@ -1,8 +1,6 @@
 <input type="text" bind:value placeholder="Search..." />
 
 <script lang="ts">
-	import { createEventDispatcher } from 'svelte';
-
 	export let value = '';
 </script>
 

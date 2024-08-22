@@ -1,20 +1,6 @@
 <div class="app">
 	<header>
-		<nav>
-			<ul>
-				<!-- <li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
-					<a href="{base}/">Randomizer</a>
-				</li> -->
-				<!-- <li aria-current={$page.url.pathname === '/statistics' ? 'page' : undefined}>
-					<a href="{base}/statistics">statistics</a>
-				</li>
-				<li aria-current={$page.url.pathname === '/gallery' ? 'page' : undefined}>
-					<a href="{base}/gallery">Gallery</a>
-				</li> -->
-			</ul>
-		</nav>
 		<a href="{base}/">Paladins skin randomizer</a>
-		<span style="flex: 1;" />
 	</header>
 
 	<main>
@@ -23,13 +9,16 @@
 
 	<footer bind:clientHeight={footerHeight}>
 		<span>version 1.0. | Tidal Surge Update</span>
-		<span style="flex: 100;" />
 		<nav>
 			<ul>
-				<li aria-current={$page.url.pathname === '/statistics' ? 'page' : undefined}>
-					<a href="https://github.com/Jadvviga/paladins-skin-randomizer" target="_blank">GitHub</a>
+				<li>
+					<a
+						target="_blank"
+						href="https://docs.google.com/forms/d/e/1FAIpQLSdy3y8LDbg6daDxEQtZtgppG_J2EvLpSA0QZiPlgEHiSugZLw/viewform?usp=sf_link"
+						>Feedback/Report an issue</a
+					>
 				</li>
-				<li aria-current={$page.url.pathname === '/gallery' ? 'page' : undefined}>
+				<li>
 					<span popovertarget="credits" on:click={toggleCredits}>Credits</span>
 				</li>
 			</ul>
@@ -124,18 +113,18 @@
 	header {
 		display: flex;
 		justify-content: center;
+		align-items: center;
 		background-color: var(--color-bg-2);
 	}
 
 	nav {
 		display: flex;
 		flex: 1;
-		justify-content: start;
+		justify-content: end;
 		align-items: center;
 	}
 
 	header a {
-		align-items: center;
 		text-transform: uppercase;
 		font-weight: 900;
 		font-size: 1.6rem;
